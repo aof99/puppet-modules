@@ -16,7 +16,7 @@ class java(
   $version      = 'present'
 ) {
 
-  validate_re($distribution, '^jdk$|^jre$|^java.*$')
+  validate_re($distribution, '^openjdk$|^jdk$|^jre$|^java.*$')
   validate_re($version, 'installed|^[._0-9a-zA-Z:-]+$')
 
   anchor { 'java::begin': }
