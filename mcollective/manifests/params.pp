@@ -66,7 +66,7 @@ class mcollective::params {
 
   $stomp_user    = 'mcollective'
   $stomp_passwd  = 'marionette'
-  $stomp_server  = 'stomp'
+  $stomp_server  = 'puppet'
   $stomp_port    = '6163'
 
   $pkg_state = 'present'
