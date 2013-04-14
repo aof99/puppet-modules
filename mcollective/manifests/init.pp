@@ -89,7 +89,7 @@ class mcollective(
   $version              = 'UNSET',
   $enterprise           = false,
   $manage_packages      = true,
-  $manage_plugins       = false,
+  $manage_plugins       = true,
   $server               = true,
   $server_config        = 'UNSET',
   $server_config_file   = '/etc/mcollective/server.cfg',
