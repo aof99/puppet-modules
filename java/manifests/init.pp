@@ -12,11 +12,11 @@
 #
 # [Remember: No empty lines between comments and class definition]
 class java(
-  $distribution = 'openjdk',
+  $distribution = 'java-1.6.0-openjdk',
   $version      = 'present'
 ) {
 
-  validate_re($distribution, '^openjdk$|^jdk$|^jre$|^java.*$')
+  validate_re($distribution, 'openjdk$|^jdk$|^jre$|^java.*$')
   validate_re($version, 'installed|^[._0-9a-zA-Z:-]+$')
 
   anchor { 'java::begin': }
