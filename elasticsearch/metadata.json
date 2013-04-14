@@ -1,0 +1,37 @@
+{
+  "checksums": {
+    "manifests/java.pp": "8e818bc2da79c21ccae12fcc3620a036",
+    "manifests/params.pp": "cb311ccd86bb1e60723928f3fbb6d741",
+    "Rakefile": "4617b1db6b164cda36fa92014ffa4950",
+    "manifests/init.pp": "b7afdf09852fece0ceed30ecbe8e95bc",
+    "CHANGELOG": "2825c944c74ef809fe6ffbcf722b008b",
+    "manifests/template.pp": "bad2ae5d256bc8c7d2292ef0ab40bd69",
+    "spec/defines/template_spec.rb": "829bbfb027a9a92a99c22359e3722e92",
+    "manifests/package.pp": "356c23190b0ba0ec54cfa50b0248303d",
+    "templates/etc/elasticsearch/elasticsearch.yml.erb": "e59ddb92836aeb363923c39f33fe7921",
+    "spec/classes/elasticsearch_init_spec.rb": "010a7fa48ab2917db5844f9ac8c874e0",
+    "spec/spec_helper.rb": "3ea886dd135e120afa31e0aab12e85b0",
+    "README.md": "512f9fee9d6165739afb6722a57bde09",
+    "Modulefile": "54123c6b0271bfd57ee48a5d530192a5",
+    "CONTRIBUTORS": "557367c8e0439838a1617c8053e9826c",
+    "manifests/config.pp": "a39967a787d394b3d52164d59d618596",
+    "manifests/service.pp": "179a68ba51c3f6b36535ca96478fd067"
+  },
+  "author": "ispavailability",
+  "dependencies": [
+    {
+      "version_requirement": ">= 3.0.0",
+      "name": "puppetlabs/stdlib"
+    }
+  ],
+  "source": "https://github.com/electrical/puppet-elasticsearch",
+  "types": [
+
+  ],
+  "license": "Apache License, Version 2.0",
+  "version": "0.0.7",
+  "description": "Module for managing and configuring Elasticsearch nodes",
+  "name": "ispavailability-elasticsearch",
+  "project_page": "https://github.com/electrical/puppet-elasticsearch",
+  "summary": "Module for managing and configuring Elasticsearch nodes"
+}
